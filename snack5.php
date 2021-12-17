@@ -8,7 +8,7 @@ Prendere un paragrafo abbastanza lungo, contenente diverse frasi. Prendere il pa
 
     $arrParagraph = explode('.', $paragraph );
 
-    echo 'Frase iniziale' .$arrParagraph[$i];
+    echo 'Frase iniziale: ' .$paragraph;
     echo '<br>';
 
     for ($i=0; $i < count($arrParagraph) ; $i++) { 
